@@ -1,0 +1,1 @@
+// Used for listening to browser events like tab switching

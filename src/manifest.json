@@ -4,7 +4,7 @@
     "version": "0.0.1",
     "description": "Disables the feed in LinkedIn",
     "permissions": ["activeTab","scripting"],
-    "host_permissions": "https://www.linkedin.com/feed/",
+    "host_permissions": ["https://www.linkedin.com/feed/"],
     "background": {
         "service_worker":"background.js"
     },
@@ -16,12 +16,15 @@
         }
     ],
     "icons": {
-        "logo": "icons/LinkClean Logo.png"
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
     },
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
-            "logo": "icons/LinkClean Logo.png"
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png"
         }
     }
 }
